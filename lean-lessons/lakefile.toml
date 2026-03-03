@@ -1,0 +1,10 @@
+name = "lean-lessons"
+version = "0.1.0"
+defaultTargets = ["lean-lessons"]
+
+[[lean_lib]]
+name = "LeanLessons"
+
+[[lean_exe]]
+name = "lean-lessons"
+root = "Main"
